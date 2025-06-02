@@ -23,15 +23,14 @@
     #ar-button {
     background-color: #fff;
     position: absolute;
-    left: 50%;
+    right: 20px;
+    bottom: 20px;
     transform: translateX(-50%);
     white-space: nowrap;
-    bottom: 100px;
     padding: 0;
-    font-size: 1.7rem;
-    color:#4285f4;
+    color:#000;
     border-radius: 100%;
-    border: 2px solid #4285f4;
+    border: 2px solid #000;
     text-align: center;
     display: flex;
     align-items: center;
@@ -50,7 +49,7 @@
   }
 
   #ar-button:focus-visible {
-    outline: 1px solid #4285f4;
+    outline: 1px solid #000;
   }
   </style>
 </head>
@@ -74,9 +73,7 @@
     src="./glb/nanaras_1_ceramica.glb" alt="Nañaras 1 Cerámica" auto-rotate camera-controls ar
       shadow style="width: 100%; height: 100%;">
       <button slot="ar-button" id="ar-button">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C10.34 20 9 18.66 9 17V7C9 5.34 10.34 4 12 4C13.66 4 15 5.34 15 7V17C15 18.66 13.66 20 12 20Z" fill="#4285F4"/>
-        </svg>
+        <img src="./logo-apple-ar.svg" alt="AR">
       </button>
     </model-viewer>
   </div>
