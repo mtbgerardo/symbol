@@ -9,7 +9,7 @@ document.querySelector("#app").innerHTML = `
         <!-- Definir el marcador personalizado -->
         <a-marker preset="hiro">
             <!-- Contenido 3D: una esfera roja flotando sobre el marcador -->
-            <a-entity gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"></a-entity>
+            <a-entity gltf-model="https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"></a-entity>
         </a-marker>
         <!-- Cámara para AR -->
         <a-entity camera></a-entity>
