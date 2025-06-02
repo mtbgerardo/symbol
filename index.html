@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>model-viewer</title>
-    <script
-      type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
-    ></script>
-  </head>
-  <body>
-    <div>
-      <model-viewer
-   src="./glb/nanaras_1_ceramica.glb"
-        alt="Nañaras 1 Cerámica"
-        auto-rotate
-        camera-controls
-        ar
-        shadow
-      ></model-viewer>
-    </div>
-    </body>
+
+<head>
+  <title>model-viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body style="
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+">
+  <div style="
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+">
+    <model-viewer 
+    src="./glb/nanaras_1_ceramica.glb" alt="Nañaras 1 Cerámica" auto-rotate camera-controls ar
+      shadow style="width: 100%; height: 100%;"></model-viewer>
+  </div>
+</body>
+
 </html>
