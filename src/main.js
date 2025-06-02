@@ -7,7 +7,7 @@ document.querySelector("#app").innerHTML = `
   <div>
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
         <!-- Definir el marcador personalizado -->
-        <a-marker type="pattern" url="markers/pattern-marker_1.patt">
+        <a-marker preset="hiro">
             <!-- Contenido 3D: una esfera roja flotando sobre el marcador -->
             <a-sphere position="0 0.5 0" radius="0.5" color="#EF2D5E"></a-sphere>
         </a-marker>
